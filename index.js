@@ -5,7 +5,7 @@ let xpAtual = 6400
 let xpTotal = xpAtual+=xpDiario
 
 console.log("Olá "+ nickname + ", seja bem vindo!")
-console.log("" + "+" + xpDiario + " exp adquirido")
+console.log("+" + xpDiario + " exp adquirido")
 
 let rankBronze = 10001
 let rankPrata = 2001
