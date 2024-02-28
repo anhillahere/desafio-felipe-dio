@@ -15,8 +15,29 @@ let rankAsc = 8001
 let rankImr = 9001
 let rankRad = 10001
 
-switch (xpTotal) {
-    case xpTotal<rankPrata:
-        console.log("Você avançou para Bronze")
-        break;
+if(xpTotal>=rankRad){
+    console.log("Você alcançou Radiantte")
 }
+else if(xpTotal>=rankImr){
+    console.log("Você alcançou Imortal")
+}
+else if(xpTotal>=rankAsc){
+    console.log("Você alcançou Ascendente")
+}
+else if(xpTotal>=rankPlat){
+    console.log("Você alcançou Platina")
+}
+else if(xpTotal>=rankOuro){
+    console.log("Você alcançou Ouro")
+}
+else if(xpTotal>=rankPrata){
+    console.log("Você alcançou Prata")
+}
+else if(xpTotal>=rankBronze){
+    console.log("Você alncaçou Bronze")
+}
+else{
+    console.log("Você ainda precisa treinar mais")
+}
+
+console.log(xpTotal + "/7000")
